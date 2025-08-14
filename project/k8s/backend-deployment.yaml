@@ -19,13 +19,13 @@ spec:
         - containerPort: 5000
         env:
         - name: DB_HOST
-          value: "database-1.cob6yswe6alc.us-east-1.rds.amazonaws.com"
+          value: "mysql"
         - name: DB_USER
-          value: "admin"
+          value: "root"
         - name: DB_PASSWORD
-          value: "admin123"
+          value: "rootpassword"
         - name: DB_NAME
-          value: "admin"
+          value: "knowledge_acquisition"
 ---
 apiVersion: v1
 kind: Service
